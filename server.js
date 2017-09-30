@@ -17,7 +17,7 @@ app.get('/pagal/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/pagal', function (req, res) {
+app.get('/pagal/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
