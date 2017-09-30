@@ -17,6 +17,11 @@ app.get('/a1/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
 });
 
+
+app.get('/a2/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'article2.html'));
+});
+
 app.get('/pagal/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
